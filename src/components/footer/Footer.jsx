@@ -9,7 +9,7 @@ const Footer = () => {
     <footer>
       
 
-      <ul className='permalinks'>
+      {/* <ul className='permalinks'>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
@@ -18,15 +18,19 @@ const Footer = () => {
         <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#contact">Contact</a></li>
 
-      </ul>
+      </ul> */}
 
-      <div className="footer__socials">
+      {/* <div className="footer__socials">
 
         <a href="https://www.linkedin.com/in/rovshan-allakhverdiev-667803255/" target='_blank'><AiFillLinkedin /></a>
         <a href="https://www.instagram.com/allahverdiev.rovshan/" target='_blank'><FaInstagram /></a>
         <a href="https://github.com/RovshanAllahverdiyev" target='_blank'><AiFillGithub /></a>
 
-      </div>
+      </div> */}
+
+<div className="footer__copyright">
+            <small>2023 Rovshan &copy; All Right Reserved</small>
+        </div>
 
      
     </footer>

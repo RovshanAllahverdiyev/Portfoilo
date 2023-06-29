@@ -1,5 +1,5 @@
 footer {
-    background-color: rgba(0, 0, 0, 0.718);
+    /* background-color: rgba(0, 0, 0, 0.718); */
     padding: 1rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -48,8 +48,12 @@ footer a {
 }
 
 .footer__copyright {
-    margin-bottom: 4rem;
-    color: var(--color-bg);
+    color: gray;
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 2px solid gold;
+    margin-top: 5rem;
+
 }
 
 
